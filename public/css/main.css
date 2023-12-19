@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Exo 2', sans-serif
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(48,25,52,0.75);
+}
+
+
+.fullscreenCanvas{
+    padding: 0;
+    margin: auto;
+    display: block;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.shipCanvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+}
+
+.weaponCanvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 300;
+}
+
+.backdropCanvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.hazeCanvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.sectionCanvasBottom {
+    position: absolute;
+    display: block;
+    z-index: 999;
+
+}
+.sectionCanvasLeft {
+    position: absolute;
+    display: block;
+    z-index: 999;
+
+}
+
+.sectionCanvasMiddle {
+    position: absolute;
+    display: block;
+    z-index: 999;
+
+}
+
+.sectionCanvasRight {
+    position: absolute;
+    display: block;
+    z-index: 999;
+}
+
+
+.background {
+    display:none;
+}
+
+.sprite {
+    display:none;
+}
+
+#moon {
+    display:none;
+}
+
